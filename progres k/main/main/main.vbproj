@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E84021D-9F58-4D2B-830E-6993BDB7AEB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>main.My.MyApplication</StartupObject>
+    <RootNamespace>main</RootNamespace>
+    <AssemblyName>main</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>main.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>main.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>40CFE987B448D165B4461F1AAB14CDC73835BA99</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>main_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aceh.Designer.vb">
+      <DependentUpon>aceh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="aceh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aturan.Designer.vb">
+      <DependentUpon>aturan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="aturan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bali.Designer.vb">
+      <DependentUpon>bali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bali.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jakarta.Designer.vb">
+      <DependentUpon>jakarta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jakarta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jatim.Designer.vb">
+      <DependentUpon>jatim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jatim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kalimantan.Designer.vb">
+      <DependentUpon>kalimantan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kalimantan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="awal.Designer.vb">
+      <DependentUpon>awal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="awal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="nilai.vb" />
+    <Compile Include="ntt.Designer.vb">
+      <DependentUpon>ntt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ntt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="papua.Designer.vb">
+      <DependentUpon>papua.vb</DependentUpon>
+    </Compile>
+    <Compile Include="papua.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="peraceh.Designer.vb">
+      <DependentUpon>peraceh.vb</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="peraceh.vb">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="perbali.Designer.vb">
+      <DependentUpon>perbali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="perbali.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perjakarta.Designer.vb">
+      <DependentUpon>perjakarta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="perjakarta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perjatim.Designer.vb">
+      <DependentUpon>perjatim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="perjatim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perjogja.Designer.vb">
+      <DependentUpon>perjogja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="perjogja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perkalimantan.Designer.vb">
+      <DependentUpon>perkalimantan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="perkalimantan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perpapua.Designer.vb">
+      <DependentUpon>perpapua.vb</DependentUpon>
+    </Compile>
+    <Compile Include="perpapua.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="persulawesi.Designer.vb">
+      <DependentUpon>persulawesi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="persulawesi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertanyaan.vb" />
+    <Compile Include="pertanyaanjogja.vb" />
+    <Compile Include="pertanyaanntt.vb" />
+    <Compile Include="persumbar.Designer.vb">
+      <DependentUpon>persumbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="persumbar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertanyaanaceh.vb" />
+    <Compile Include="pertanyaanbali.vb" />
+    <Compile Include="perntt.Designer.vb">
+      <DependentUpon>perntt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="perntt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertanyaansumbar.vb" />
+    <Compile Include="sulawesi.Designer.vb">
+      <DependentUpon>sulawesi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sulawesi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sumbar.Designer.vb">
+      <DependentUpon>sumbar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sumbar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yogja.Designer.vb">
+      <DependentUpon>Yogja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yogja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="utama.Designer.vb">
+      <DependentUpon>utama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="utama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="aceh.resx">
+      <DependentUpon>aceh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aturan.resx">
+      <DependentUpon>aturan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bali.resx">
+      <DependentUpon>bali.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jakarta.resx">
+      <DependentUpon>jakarta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jatim.resx">
+      <DependentUpon>jatim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kalimantan.resx">
+      <DependentUpon>kalimantan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="awal.resx">
+      <DependentUpon>awal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ntt.resx">
+      <DependentUpon>ntt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="papua.resx">
+      <DependentUpon>papua.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="peraceh.resx">
+      <DependentUpon>peraceh.vb</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perbali.resx">
+      <DependentUpon>perbali.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perjakarta.resx">
+      <DependentUpon>perjakarta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perjatim.resx">
+      <DependentUpon>perjatim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perjogja.resx">
+      <DependentUpon>perjogja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perkalimantan.resx">
+      <DependentUpon>perkalimantan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perpapua.resx">
+      <DependentUpon>perpapua.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="persulawesi.resx">
+      <DependentUpon>persulawesi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="persumbar.resx">
+      <DependentUpon>persumbar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perntt.resx">
+      <DependentUpon>perntt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sulawesi.resx">
+      <DependentUpon>sulawesi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sumbar.resx">
+      <DependentUpon>sumbar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yogja.resx">
+      <DependentUpon>Yogja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="utama.resx">
+      <DependentUpon>utama.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sedih.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\senang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
